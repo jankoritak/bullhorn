@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jankoritak/bullhorn/main/assets/logo.gif" alt="Bullhorn" width="200">
+  <img src="https://raw.githubusercontent.com/jankoritak/bullhorn/main/assets/logo.png" alt="Bullhorn" width="200">
 </p>
 
 # Bullhorn
