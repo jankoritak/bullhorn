@@ -1,6 +1,6 @@
 {
   "name": "@jankoritak/claude-bullhorn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Post to X from inside Claude Code. Draft from your session, review, approve, post. BYOK, write-only, local-only.",
   "license": "MIT",
   "author": {
@@ -34,7 +34,7 @@
   ],
   "scripts": {
     "build": "esbuild ../packages/mcp-server/src/index.ts --bundle --platform=node --target=node20 --format=cjs --outfile=bin/mcp-server.js",
-    "prepublishOnly": "pnpm build",
+    "prepublishOnly": "pnpm build && cp ../README.md README.md",
     "validate": "claude plugin validate ."
   },
   "devDependencies": {
